@@ -1,0 +1,49 @@
+{
+  "name": "hackathon-backend-node",
+  "version": "1.0.0",
+  "description": "Hackathon Management and Registration App written in Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinburger/hackathon-backend-node.git"
+  },
+  "keywords": [
+    "hackathon",
+    "REST",
+    "node"
+  ],
+  "author": "Justin Burger <him@wanderingburgers.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/justinburger/hackathon-backend-node/issues"
+  },
+  "homepage": "https://github.com/justinburger/hackathon-backend-node#readme",
+  "dependencies": {
+    "aws-sdk": "^2.3.19",
+    "body-parser": "^1.15.1",
+    "dynamodb-model": "0.0.2",
+    "express": "^4.13.4",
+    "gulp-mocha": "^2.2.0",
+    "mongoose": "^4.4.20",
+    "mysql": "^2.11.1",
+    "should": "^9.0.2",
+    "sinon": "^1.17.4",
+    "util": "^0.10.3",
+    "vogels": "^2.2.0"
+  },
+  "devDependencies": {
+    "bower-json": "^0.8.1",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "wiredep": "^4.0.0"
+  }
+}
