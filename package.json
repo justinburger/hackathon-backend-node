@@ -30,7 +30,7 @@
     "gulp-mocha": "^2.2.0",
     "should": "^9.0.2",
     "sinon": "^1.17.4",
-    "util": "^0.10.3",
+    "util": "^0.10.3"
   },
   "devDependencies": {
     "bower-json": "^0.8.1",

@@ -21,11 +21,11 @@ function(participant) {
                }
            });
        }
-   }
+   };
 
     return {
         get: get
-    }
-}
+    };
+};
 
 module.exports = participantController;

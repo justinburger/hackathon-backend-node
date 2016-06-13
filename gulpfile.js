@@ -38,6 +38,6 @@ gulp.task('style', function() {
 
 
 gulp.task('test', function() {
-    gulp.src('tests/*.js').pipe(gulpMocha({reporter:'nyan'}))
+    gulp.src('tests/*.js').pipe(gulpMocha({reporter:'nyan'}));
 });
 
