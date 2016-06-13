@@ -28,12 +28,9 @@
     "dynamodb-model": "0.0.2",
     "express": "^4.13.4",
     "gulp-mocha": "^2.2.0",
-    "mongoose": "^4.4.20",
-    "mysql": "^2.11.1",
     "should": "^9.0.2",
     "sinon": "^1.17.4",
     "util": "^0.10.3",
-    "vogels": "^2.2.0"
   },
   "devDependencies": {
     "bower-json": "^0.8.1",
